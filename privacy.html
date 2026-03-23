@@ -69,11 +69,12 @@
             border-radius: 12px;
             margin: 24px 0;
         }
-        .data-table, .permission-table {
+        .data-table {
             overflow-x: auto;
             margin: 22px 0 16px;
             border-radius: 16px;
             border: 1px solid #dee6f0;
+            background: white;
         }
         table {
             width: 100%;
@@ -108,6 +109,15 @@
         ul, ol {
             padding-left: 26px;
             margin-bottom: 18px;
+        }
+        .permission-table {
+            overflow-x: auto;
+            margin: 20px 0;
+            border-radius: 16px;
+            border: 1px solid #dee6f0;
+        }
+        .permission-table table {
+            min-width: 480px;
         }
         .contact-card {
             background: linear-gradient(135deg, #f6faff, #eef4fa);
@@ -162,110 +172,93 @@
             <span>更新日期：2026年3月23日 | 生效日期：2026年3月23日</span>
         </div>
 
-        <p><strong>欢迎使用“型材计算器”</strong>（以下简称“本应用”）。本应用由<strong>无锡暖笙网络科技有限公司</strong>（以下简称“我们”或“公司”）开发并运营。我们深知个人信息对您的重要性，并将严格遵守法律法规，采取相应的安全保护措施来保护您的个人信息。</p>
+        <p><strong>欢迎使用“型材计算器”</strong>（以下简称“本应用”）。本应用由<strong>无锡暖笙网络科技有限公司</strong>（以下简称“公司”或“我们”）开发并运营。我们深知个人信息对您的重要性，并将严格遵守法律法规，采取相应的安全保护措施来保护您的个人信息。</p>
 
-        <p>本应用接入了<strong>鲸鸿动能SDK</strong>（由华为软件技术有限公司提供），用于提供广告服务。华为软件技术有限公司（以下简称“华为”）将作为数据处理者，按照其隐私声明处理您的个人信息。本隐私政策旨在向您说明我们如何通过鲸鸿动能SDK收集、使用、存储和保护您的个人信息。</p>
+        <p><strong>请您在使用本应用前，务必仔细阅读并充分理解本隐私政策的全部内容。</strong>您通过本应用使用、下载、安装或访问本应用，即视为您已阅读、理解并同意本隐私政策的全部条款。</p>
 
         <div class="highlight-box">
             <strong>📌 特别提示：</strong>
             <ul style="margin-top: 8px; margin-bottom: 0;">
-                <li>本应用<strong>无需注册</strong>即可使用所有功能；</li>
-                <li>计算记录等数据<strong>仅保存在您的设备本地</strong>，我们不上传至服务器；</li>
+                <li>本应用<strong>无需注册</strong>即可使用所有功能，无需提供任何个人信息；</li>
+                <li>本应用产生的计算记录、设置参数等数据<strong>默认仅保存在您的设备本地</strong>；</li>
+                <li>本应用接入了第三方广告SDK，具体披露见下文；</li>
                 <li>我们已在应用内提供<strong>个性化广告开关</strong>，您可随时开启或关闭。</li>
             </ul>
         </div>
 
         <h2>一、我们如何收集和使用您的个人信息</h2>
-        <p>根据《常见类型移动互联网应用程序必要个人信息范围规定》，本应用属于“工具类”应用，必要个人信息范围仅为“无”。鲸鸿动能SDK会出于以下目的收集和使用您的个人信息：</p>
+        <p>根据《常见类型移动互联网应用程序必要个人信息范围规定》，本应用属于“工具类”应用，<strong>必要个人信息范围仅为“无”</strong>。我们仅会出于本隐私政策所述的以下目的，收集和使用您的个人信息：</p>
 
-        <h3>1. 广告展示服务、反作弊及防止其他恶意行为、监测归因</h3>
-        <p>为了展示广告、反作弊、防止恶意行为以及监测归因，SDK可能会收集并处理以下必要信息：</p>
-        <ul>
-            <li><strong>设备标识符</strong>：OAID、ODID</li>
-            <li><strong>设备信息</strong>：设备型号、设备硬件信息、屏幕分辨率、存储空间大小、操作系统版本、系统设置、设备使用信息</li>
-            <li><strong>应用信息</strong>：应用基本信息、应用设置信息、应用使用信息</li>
-            <li><strong>网络信息</strong>：网络信息、运营商信息、IP地址</li>
-            <li><strong>广告互动信息</strong>：广告展示、点击等互动记录</li>
-            <li><strong>可选信息</strong>：传感器信息（陀螺仪、加速度计、旋转矢量传感器、磁力计、气压计）、WLAN信息（WiFi状态、WiFi参数、BSSID与SSID）</li>
-        </ul>
+        <h3>（一）基本功能服务（无需任何个人信息）</h3>
+        <p>本应用提供型材计算等基本功能。您无需提供任何个人信息即可使用这些功能。您在使用过程中产生的计算记录、历史结果、设置偏好等数据，<strong>仅保存在您的设备本地</strong>，我们不会收集、上传或存储这些数据至我们的服务器。</p>
 
-        <h3>2. 个性化广告服务</h3>
-        <p>为了提供个性化广告推荐服务，SDK可能会收集并处理：</p>
-        <ul>
-            <li><strong>必要信息</strong>：设备标识符（OAID）、应用设置信息</li>
-            <li><strong>可选信息（如您已授权位置权限）</strong>：位置信息（包括精确位置信息、蓝牙列表和WLAN信息），用于辅助确定设备大致位置，提供地理位置相关的广告。SDK不会存储精确位置信息。</li>
-        </ul>
+        <h3>（二）广告展示服务</h3>
+        <p>为了维持应用的免费运营，本应用接入了<strong>鲸鸿动能 Ads SDK</strong>（由华为软件技术有限公司提供），向您展示广告。该SDK可能会在征得您的同意后，收集必要的设备信息，用于程序化广告投放、广告监测归因、广告防欺诈与运营维护。</p>
+
+        <p><strong>本应用集成的第三方SDK详情如下：</strong></p>
+        <div class="data-table">
+             <table>
+                <thead>
+                    <tr><th>第三方SDK名称</th><th>第三方公司名称</th><th>收集个人信息类型</th><th>使用目的</th><th>隐私政策链接</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>鲸鸿动能 Ads SDK</strong><br></td><td>华为软件技术有限公司</td>
+                    <td>	
+设备标识符（包含OAID、ODID）、设备信息（设备型号、设备硬件信息、屏幕分辨率、存储空间大小、操作系统版本、系统设置、设备使用信息）、应用基本信息、应用设置信息、应用使用信息、传感器信息（陀螺仪、加速度计、旋转矢量传感器、磁力计、气压计）、网络信息、运营商信息、IP地址、WLAN信息（WiFi状态、WiFi参数、WiFi列表、BSSID与SSID）、位置信息（如精确位置信息（可选，不存储）与WLAN信息（WiFi列表、BSSID与SSID）、蓝牙列表）、广告互动信息</td>
+                    <td>程序化广告投放、广告监测归因、广告防欺诈与运营维护</td>
+                    <td><a href="https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/privacy-statement-0000001050193857" target="_blank" class="link">鲸鸿动能SDK隐私声明</a></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
         <div class="switch-box">
             <p><strong>🔘 个性化广告开关</strong></p>
-            <p>我们已在应用内提供“个性化广告推荐”开关。关闭该开关后，我们将通过SDK接口关闭个性化广告功能，您收到的广告数量不会减少，但广告相关性会降低。</p>
-            <p><strong>管理路径</strong>：我的 > 设置 > 个性化广告推荐</p>
+            <p>我们尊重您的选择权，已在应用内提供“个性化广告推荐”开关。您可以通过以下路径管理：</p>
+            <ul>
+                <li><strong>应用内开关</strong>：我的 > 个性化广告推荐（可随时开启或关闭）</li>
+            </ul>
+            <p>关闭该开关后，您收到的广告数量不会减少，但广告相关性会降低。</p>
         </div>
 
-        <h2>二、第三方SDK信息披露</h2>
-        <div class="data-table">
-            <table>
-                <thead>
-                    <tr><th>SDK名称</th><th>第三方名称</th><th>收集个人信息类型</th><th>使用目的</th><th>隐私政策链接</th></tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>鲸鸿动能SDK</strong><br>（曾用名：HUAWEI Ads SDK）</td>
-                        <td>华为软件技术有限公司</td>
-                        <td>设备标识符（OAID、ODID）、设备信息、应用信息、网络信息、IP地址、广告互动信息、传感器信息、WLAN信息、位置信息（可选）</td>
-                        <td>广告展示、反作弊、监测归因、个性化广告</td>
-                        <td><a href="https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/whale-hong-kinetic-energy-sdk-privacy-statement-0000001658283582" target="_blank" class="link">查看</a></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <h2>二、设备权限调用说明</h2>
+        <p>本应用可能需要在您使用特定功能时申请以下设备权限。每次申请权限前，我们将通过弹窗方式单独征得您的同意。您可以通过设备系统设置随时管理或撤回相关权限。</p>
 
-        <h2>三、设备权限调用</h2>
-        <p>当您使用相应功能时，我们会通过SDK向系统申请设备权限。您可以在设备设置中查看权限状态，并可自行选择开启或关闭。</p>
         <div class="permission-table">
-            <table>
-                <thead><tr><th>权限名称</th><th>使用目的</th><th>申请时机</th></tr></thead>
+             <table>
+                <thead><tr><th>权限名称</th><th>使用目的</th><th>是否可关闭</th></tr></thead>
                 <tbody>
-                    <tr><td>ACCESS_COARSE_LOCATION<br>ACCESS_FINE_LOCATION</td><td>基于位置的个性化广告投放</td><td>展示广告时（仅当您开启个性化广告时）</td></tr>
-                    <tr><td>ACCESS_WIFI_STATE</td><td>获取WLAN信息，用于辅助确定设备大致位置</td><td>展示广告时（仅当您开启个性化广告时）</td></tr>
-                    <tr><td>ACCESS_NETWORK_STATE</td><td>检测网络连接状态，用于广告归因和反作弊</td><td>SDK初始化时</td></tr>
-                    <tr><td>INTERNET</td><td>请求和展示广告内容</td><td>SDK初始化时</td></tr>
+                    <tr><td>网络访问权限<br><span style="font-size:12px;">ohos.permission.INTERNET</span></td><td>用于请求和展示广告内容</td><td>是</td></tr>
+                    <tr><td>获取网络状态权限<br><span style="font-size:12px;">ohos.permission.GET_NETWORK_INFO</span></td><td>用于判断网络连接状态，提升广告归因成功率</td><td>是</td></tr>
+                    <tr><td>广告跟踪权限<br><span style="font-size:12px;">ohos.permission.APP_TRACKING_CONSENT</span></td><td>用于获取OAID，实现广告归因和个性化推荐</td><td>是</td></tr>
                 </tbody>
             </table>
         </div>
 
-        <h2>四、SDK关联启动说明</h2>
-        <p>当您在华为设备或非华为设备上使用本应用时，鲸鸿动能SDK可能会关联启动以下应用：</p>
+        <h2>三、信息的存储</h2>
         <ul>
-            <li><strong>华为应用市场</strong>：用于应用首次安装时查询安装归因，以及使用延迟深度链接功能时查询落地页信息。</li>
-            <li><strong>HMS Core</strong>：用于记录广告请求、曝光、点击、应用下载或应用间跳转等事件。</li>
+            <li><strong>本地存储</strong>：计算记录等数据仅保存在您的设备本地。</li>
+            <li><strong>第三方SDK数据存储</strong>：鲸鸿动能 Ads SDK收集的信息存储于<strong>中华人民共和国境内</strong>的服务器。</li>
+            <li><strong>存储期限</strong>：SDK收集的个人信息保留期限不超过2年。</li>
         </ul>
 
-        <h2>五、对未成年人的保护</h2>
-        <p>我们非常重视对未成年人个人信息的保护。如果您是不满十八周岁的未成年人，本服务<strong>不会向您推送个性化广告</strong>。建议未成年人在父母或监护人指导下使用本应用。</p>
+        <h2>四、信息的共享与转让</h2>
+        <p>我们不会与我们公司以外的任何公司、组织和个人分享您的个人信息，但为实现广告服务，我们会将必要的信息共享给鲸鸿动能 Ads SDK（华为软件技术有限公司）。您关闭个性化广告开关后，我们将通过SDK接口限制相关信息的收集和共享。</p>
 
-        <h2>六、信息存储地点及期限</h2>
-        <ul>
-            <li><strong>存储地点</strong>：上述信息将传输并保存至<strong>中华人民共和国境内</strong>的服务器。</li>
-            <li><strong>存储期限</strong>：用于广告服务的个人信息保留不超过<strong>2年</strong>，到期后删除或匿名化处理。</li>
-        </ul>
-
-        <h2>七、您的权利</h2>
-        <p>您可以通过以下方式管理您的个人信息：</p>
+        <h2>五、您的权利</h2>
         <ul>
             <li><strong>管理本地数据</strong>：通过系统设置清除应用数据。</li>
-            <li><strong>管理权限</strong>：通过系统设置撤回已授予的权限。</li>
-            <li><strong>管理个性化广告</strong>：通过应用内“我的 > 设置 > 个性化广告推荐”开关，随时开启或关闭。</li>
+            <li><strong>管理权限</strong>：通过系统设置撤回权限。</li>
+            <li><strong>管理个性化广告</strong>：通过应用内“我的 > 个性化广告推荐”开关，随时开启或关闭。</li>
             <li><strong>撤回同意</strong>：通过卸载应用撤回全部同意。</li>
-            <li><strong>其他个人信息权利</strong>：如您希望行使访问、复制、更正、删除等权利，可通过第八节联系方式联系我们，我们将协调华为响应您的请求。</li>
         </ul>
 
-        <h2>八、联系我们</h2>
+        <h2>六、联系我们</h2>
         <div class="contact-card">
             <div class="contact-item"><div class="contact-label">公司名称</div><div class="contact-value">无锡暖笙网络科技有限公司</div></div>
             <div class="contact-item"><div class="contact-label">联系邮箱</div><div class="contact-value">8206786@qq.com</div></div>
         </div>
-        <p>我们将在15个工作日内回复您的咨询。您也可以直接通过<a href="https://www.huawei.com/cn/privacy/questions" target="_blank" class="link">华为隐私问题页面</a>联系华为。</p>
+        <p>我们将在15个工作日内回复您的咨询。</p>
 
         <div class="strong-note">
             <strong>生效日期：</strong>本隐私政策自您点击同意或首次使用本应用之日起生效。
